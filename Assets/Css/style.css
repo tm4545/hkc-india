@@ -2402,9 +2402,12 @@ a.blog-post-link:hover .post-text h4{
 /* blog detail page css end  */
 
 /* why choose us page css start  */
+.second-bg{
+  background-color: #e7e7e766;
+}
 section#why-choose-us-page {
-  padding-top: 145px;
-  padding-bottom: 145px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 .why-choose-us-title.text-center h3 {
   font-size: 14px;
@@ -2869,7 +2872,13 @@ section#great-project {
   stroke: #ff5538;
 }
 
+h2.team-font{
+  font-size: 60px;
+}
 
+p.team-desc{
+  font-size: 20px;
+}
 
 /* ========================== Media query start ============================================== */
 @media only screen and (max-width:1200px){
