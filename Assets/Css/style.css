@@ -1353,6 +1353,9 @@ a.btn {
    /* cta section css End  */
 
   /* footer section css start  */
+  .footer-logo{
+    width: 227px;  
+  }
   .cta .footer-content-wrapper {
     padding-top: 190px;
     padding-bottom: 70px;
