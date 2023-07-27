@@ -509,7 +509,7 @@ button.p-drawer__close.js-close.is-open svg {
     background-position: center top;
     position: relative;
     z-index: 1;
-    background-image: url(../Images/banner.jpg);
+    background-image: url(../Images/bg-2.png);
 }
 .banner-title-wrapper {
     padding-top: 290px;
