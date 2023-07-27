@@ -513,7 +513,7 @@ button.p-drawer__close.js-close.is-open svg {
 }
 .banner-title-wrapper {
     padding-top: 290px;
-    max-width: 520px;
+    max-width: 100%;
 }
 .banner-sub-title p {
     font-size: 16px;
@@ -524,11 +524,12 @@ button.p-drawer__close.js-close.is-open svg {
     color: #ffffff;
 }
 .banner-title h1 {
-    font-size: 72px;
-    line-height: 92px;
-    font-weight: 700;
-    color: #ffffff;
-    margin-top: 10px;
+  font-size: 62px;
+  line-height: 92px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 10px;
+  padding-right: 90px;
 }
 
 .banner-bg-shape {
@@ -930,7 +931,7 @@ p.ik-carousel-tile-small-container-description.p-title-small.medium65.mt-2.mb-lg
     padding-left: 120px;
 }
 h2.title {
-    font-size: 40px;
+    font-size: 38px;
     line-height: 54px;
     font-family: "Manrope", sans-serif;
     font-weight: 700;
@@ -1240,7 +1241,7 @@ span.date span {
   max-width: 220px;
 }
 .team-text-wrapper h3 {
-  font-size: 22px;
+  font-size: 19px;
   line-height: 30px;
   color: #231e32;
 }
@@ -2099,6 +2100,9 @@ section#contact-us {
   background-image: url(/Assets/Images/contact-bg.jpg);
   padding-top: 145px;
   padding-bottom: 145px;
+}
+.contact-banner{
+  background-image: url(/Assets/Images/contact-us-bg.png) !important;
 }
 .contact-info-wrapper {
   max-width: 410px;
@@ -3005,6 +3009,10 @@ section#why-choose-us {
 }
 }
 @media only screen and (max-width:991px){
+  .about-sm-img{
+    position: relative;
+    text-align: center;
+  }
   .form-title.text-center h2 {
     font-size: 28px;
     line-height: 40px;
@@ -3103,7 +3111,7 @@ section#about-banner {
 }
 .about-content-wrapper {
   padding-left: 0px;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 .banner-bg-shape {
   width: 350px;
@@ -3125,6 +3133,9 @@ section#about-banner {
 }
 }
 @media only screen and (max-width:767px){
+  .contact-banner{
+    background: linear-gradient(90deg, rgba(33,86,163,1) 0%, rgba(1,43,115,1) 100%);
+  }
   section#contact-form {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -3273,6 +3284,7 @@ section#service-skill::before{
 }
 section#about-banner {
   min-height: 350px;
+  background: linear-gradient(90deg, rgba(33,86,163,1) 0%, rgba(1,43,115,1) 100%);
 }
   .form-btn:after{
     height: 30%;
