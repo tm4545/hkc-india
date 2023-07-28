@@ -2104,6 +2104,9 @@ section#contact-us {
 .contact-banner{
   background-image: url(/Assets/Images/contact-us-bg.png) !important;
 }
+.about-banner{
+  background-image: url(/Assets/Images/about-us-banner.png) !important;
+}
 .contact-info-wrapper {
   max-width: 410px;
 }
@@ -3481,4 +3484,13 @@ section#About{
 .sv-icon img{
   height: 50px;
   width: 50px;
+}
+
+.icon-sv img{
+  height: 99px;
+  width: 91px;
+}
+.our-service-content-wrapper{
+  /* min-height: 237px; */
+  max-height: 184px;
 }
