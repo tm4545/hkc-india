@@ -785,6 +785,7 @@
     background-image: url('../images/bussiness-hinstory.jpg');
     background-position: center center;
     margin-right: 30px;
+    border-radius: 38px;
 }
 
 .business-grid .left-side img {
@@ -1157,8 +1158,8 @@
     align-content: flex-start;
     text-align: center;
     color: #fff;
-    font-size: 55px;
-    line-height: 71.5px;
+    font-size: 37.5px;
+    line-height: 42.5px;
     font-weight: 600;
     flex-direction: column;
 }
@@ -1989,6 +1990,7 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     display: flex;
+    border-radius: 34px;
 }
 
 .our-mission-grid .right-side {
@@ -2081,7 +2083,7 @@ footer {
 
 .expertise-grid .left-side h3,
 .our-team h3 {
-    font-size: 45px;
+    font-size: 38px;
     line-height: 58.5px;
     font-weight: 600;
 }
