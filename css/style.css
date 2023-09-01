@@ -15,7 +15,7 @@
 }
 
 .navbar-brand img {
-    height: 80px;
+    height: 67px;
 }
 
 .navbar-nav {
@@ -2468,7 +2468,7 @@ footer {
 }
 
 .sub-network-grid {
-    margin-top: 40px;
+    margin-top: 20px;
 }
 
 .sub-network-grid h4 {
@@ -2722,7 +2722,7 @@ footer {
 }
 
 .detection-system.theme-dark {
-    background-color: #2d2727;
+    background-color: #012b72;
     border-radius: 30px;
     width: 33.33%;
     margin-right: 20px;
